@@ -35,3 +35,18 @@ img.logo_g{
 
 }
 
+button.btn_produits{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	background-color: yellowgreen;
+}
+
+img.img_shop{
+	position: absolute;
+	top: 12px;
+	left: 40px;
+	
+}
+
+
