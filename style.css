@@ -49,4 +49,46 @@ img.img_shop{
 	
 }
 
+button.btn_contacter{
+	background-color: black;
+	position: absolute;
+	left: 1247px;
+	color: white;
+	top: 585px;
+}
+
+.bouton
+{
+    color:#0000ff;
+    font-size:24px;
+    cursor:pointer;
+    position: absolute;
+    top: 560px;
+    left: 1250px;
+}
+.bouton:hover
+{
+    text-decoration:underline;
+}
+.texte
+{
+    color: black;
+    visibility: hidden;
+    position: absolute;
+    left: 1000px;
+    top: 400px;
+}
+.texte:hover
+{
+    border:1px solid #000000;
+    padding:  3px;
+    background:#cccccc;
+    color:#000000;
+}
+
+img.img_drive{
+	position: absolute;
+	border: none;
+	top: 490px;
+}
 
