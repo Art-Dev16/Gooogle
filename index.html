@@ -30,6 +30,35 @@
 	</button>
 
 	</center>
+	<a href="https://drive.google.com/drive/my-drive">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_Drive_logo.svg/144px-Google_Drive_logo.svg.png"
+	class="img_drive">
+	</a>
+	
+	
+
+	 <span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');">Infos</span>
+    <div id="texte" class="texte">
+        tel 07 608 3630
+
+        14 Allée du BuissonRond <br>
+
+        gooogle.1789_@ac-versailles.fr <br>
+
+        Châlons-en-Champagne <br> <br>
+
+        Administré par la préfécture des Pyrénées Orientales <br> <br>
+
+        Abrogé par Loi n°92-597 du 1 juillet 1992 - art. 5 (V) JORF 3 juillet 1992
+
+        
+    </div>
+    <script type="text/javascript">
+    //<!--
+        afficher_cacher('texte');
+    //-->
+    </script>
+
 	<script type="text/javascript">
 		function redirect_se_connecter() {
 			document.location.href="https://art-dev16.github.io/connexion/";
@@ -40,6 +69,21 @@
 		function redirect_produits(){
 			document.location.href="https://art-dev16.github.io/Produits/";
 		}
+		function afficher_cacher()
+		{
+		    if(document.getElementById("texte").style.visibility=="hidden")
+		    {
+		        document.getElementById("texte").style.visibility="visible";
+		        document.getElementById('bouton_'+"texte").innerHTML='Cacher les infos';
+		    }
+		    else
+		    {
+		        document.getElementById("texte").style.visibility="hidden";
+		        document.getElementById('bouton_'+"texte").innerHTML='Infos';
+		    }
+		    return true;
+		}
+
 	</script>
 
 	<img width="64" height="64" class="logo_g" src="https://i.pinimg.com/originals/20/1d/17/201d17590b3a7bc8939ca37e577bbbd8.png" align="right">
@@ -54,6 +98,8 @@
 			</center>
 		</b>
 	</p>
+
+	
 
 
 
